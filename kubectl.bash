@@ -28,4 +28,5 @@ EOF
     kubectl config use-context context || exit
 fi
 
+echo "Running: kubectl $@"
 kubectl "$@"
