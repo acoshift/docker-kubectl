@@ -15,5 +15,5 @@ steps:
 secrets:
 - kmsKeyName: projects/[PROJECT-ID]/locations/global/keyRings/[KEY-RING]/cryptoKeys/[KEY]
   secretEnv:
-    TOKEN: __ENCRYPT_TOKEN
+    TOKEN: __ENCRYPT_TOKEN__
 ```
