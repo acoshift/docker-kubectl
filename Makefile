@@ -1,3 +1,3 @@
 default:
-	docker build -t acoshift/kubectl .
+	docker build --pull -t acoshift/kubectl .
 	docker push acoshift/kubectl
